@@ -1,8 +1,19 @@
 package com.example.testmvvm;
 
 public interface MyPopClickListener {
-    void Click1();
-    void Click2();
-    void Click3();
+    /**
+     * 相机拍照
+     */
+    void takePic();
+
+    /**
+     * 图库选择照片
+     */
+    void choosePic();
+
+    /**
+     * 取消
+     */
+    void cancel();
 
 }
